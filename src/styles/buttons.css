@@ -1,0 +1,32 @@
+button{
+    border-radius: var(--radius-default);
+    cursor: pointer;
+}
+
+.pinkButton{
+    background-color: var(--color-primary);
+    color: #ffffff;
+    padding: .9rem 1.25rem;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pinkButton:hover{
+    background-color: var(--color-primary-2);
+    color: var(--color-grey-1);
+}
+
+.greyButton{
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-3);
+    padding: .66rem .94rem;
+}
+
+.trashButton{
+    padding: .4rem;
+}

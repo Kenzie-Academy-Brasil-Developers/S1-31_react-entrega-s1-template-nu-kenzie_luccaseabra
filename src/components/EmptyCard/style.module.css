@@ -1,0 +1,30 @@
+@import "../../styles/index.css";
+
+.emptyCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .8rem;
+    width: 100%;
+    height: 5.5rem;
+    padding: 1.56rem .625rem;
+    background-color: var(--color-grey-1);
+    border-radius: var(--radius-default);
+    box-shadow: 0 0 .3rem #00000020;
+    box-sizing: border-box;
+    
+}
+
+.bigBar, .smallBar{
+    height: .875rem;
+    background-color: var(--color-grey-2);
+}
+
+.bigBar{
+    width: 60%;
+}
+
+.smallBar{
+    width: 20%;
+}

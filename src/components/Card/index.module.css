@@ -1,0 +1,83 @@
+.card{
+    display: flex;
+    width: 100%;
+    border-radius: var(--radius-default);
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: var(--color-grey-1);
+    box-shadow: 0 0 .3rem #00000020;
+}
+
+.redBar, .greenBar{
+    width: 1.2%;
+}
+.redBar{
+    background-color: tomato;
+}
+
+.greenBar{
+    background-color: var(--color-secundary);
+}
+.content{
+    padding: 1rem .875rem;
+    width: 98.8%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content h3{
+    font-size: 1rem;
+}
+
+.descriptionAndType{
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.type{
+    font-weight: 400;
+}
+.valueAndButton{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.valueAndButton button{
+    background-color: var(--color-grey-2);
+    padding: .4rem .8rem;
+    width: max-content;
+    transition: .2s
+}
+
+.valueAndButton button:hover{
+    background-color: tomato;
+    opacity: .9;
+}
+
+@media(min-width: 850px){
+    .content{
+        flex-direction: row;
+        position: relative;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .valueAndButton{
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .valueAndButton .value{
+        width: max-content;
+        margin: .25rem 3rem 0 0;
+    }
+
+    .valueAndButton button{
+        position: absolute;
+        top: 1rem;
+        right: .8rem;
+    }
+}

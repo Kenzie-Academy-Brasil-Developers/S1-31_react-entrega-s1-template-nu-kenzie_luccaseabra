@@ -1,0 +1,11 @@
+.select{
+    padding: .755rem;
+    width: 100%;
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-4);
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: var(--radius-default);
+
+}

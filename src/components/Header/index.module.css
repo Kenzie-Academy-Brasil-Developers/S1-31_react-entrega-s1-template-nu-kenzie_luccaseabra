@@ -1,0 +1,27 @@
+@import './../../styles/index.css';
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 0 5px #00000025;
+    background-color: var(--color-grey-1);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.container {
+    padding: 1.69rem 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 62rem;
+}
+
+.container button {
+    width: max-content;
+}

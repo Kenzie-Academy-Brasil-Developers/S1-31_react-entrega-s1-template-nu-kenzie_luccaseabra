@@ -1,0 +1,46 @@
+.title {
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title.one {
+    font-size: 1.75rem;
+}
+
+.title.two {
+    font-size: 1.5rem;
+}
+
+.title.three {
+    font-size: 1.25rem;
+}
+
+.title.four {
+    font-size: .75rem;
+}
+
+.headline{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+body{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.fontGrey1{
+    color: var(--color-grey-1)
+}
+.fontGrey2{
+    color: var(--color-grey-2)
+}
+.fontGrey3{
+    color: var(--color-grey-3)
+}
+.fontGrey4{
+    color: var(--color-grey-4)
+}
